@@ -140,7 +140,10 @@ $(function() {
     function fillModal() {
         // nim-nama-telepon
         $('#identitas-review').html($('#nim').val() + " / " + $('#nama').val() + " / " + $('#nohp').val() + " / " +$('#idline').val());
-        // division order
+        $('#email-review').html($('#email').val());
+        $('#asal-review').html($('#asal').val());
+        $('#alamat-review').html($('#alamat').val());
+                // division order
         var order = $('#division-review');
         order.html('<ol></ol>');
         $('.division-item').each(function(i, e) {
