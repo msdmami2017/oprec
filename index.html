@@ -10,25 +10,26 @@
     <link rel="shorcut icon" href="favicon.ico">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/oprec.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
     <!--[if lt IE 9]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
 
-<body>
+<body style="font-family: 'Montserrat';">
 <div class="container">
     <div class="row">
         <div class="col-md-10 col-md-offset-1 col-xs-12">
 
             <div class="text-center">
             <h1>Open Recruitment Panitia Aku Masuk ITB 2017</h1>
-            <!-- <p>Staffing has never been <em>easier</em>.</p>-->
+            <p>Hai, hai! Yuk gabung di Aku Masuk ITB 2017. <strong>Rasakan petualangannya!</strong></p>
             </div>
 
             <hr>
 
-            <h3>Identitas</h3>
-            <p>Kenalkan dirimu!</p>
+            <h3>Identitas Diri</h3>
+            <p>Kita mau kenal kamu nih...</p>
 
             <div class="row">
                 <div class="form-group col-xs-9 col-md-2">
@@ -37,7 +38,7 @@
                     <small class="error-validation">Field ini harus diisi</small>
                 </div>
                 <div class="form-group col-xs-9 col-md-4">
-                    <label class="" for="nama">Nama</label>
+                    <label class="" for="nama">Nama Lengkap</label>
                     <input class="form-control" type="text" name="nama" id="nama" required>
                     <small class="error-validation">Field ini harus diisi</small>
                 </div>
@@ -48,6 +49,7 @@
                 </div>
                 <div class="form-group col-xs-9 col-md-3">
                     <label class="" for="nohp">Nomor HP</label>
+                    <small class=""><em>Isinya diawali dengan tanda petik satu ya. Contoh: '081234567890</em></small>
                     <input class="form-control" type="text" name="nohp" id="nohp" required>
                     <small class="error-validation">Field ini harus diisi</small>
                 </div>
@@ -64,19 +66,21 @@
             </div>
             <div class="form-group">
                     <label class="" for="asal">Asal Daerah</label>
+                    <small class=""><em>Isi dengan kota asal SMA kamu</em></small>
                     <input class="form-control" type="text" name="asal" id="asal" required>
-                    <small class="error-validation">Silahkan isi dengan kota asal SMA kamu</small>
+                    <small class="error-validation">Field juga harus diisi</small>
             </div>
             <div class="form-group">
                     <label class="" for="alamat">Alamat di Bandung</label>
+                    <small class=""><em>Isi dengan alamat lengkap dari tempat tinggal kamu di Bandung saat ini</em></small>
                     <textarea class="form-control" name="alamat" id="alamat" cols="30" rows="5" required></textarea>
                     <small class="error-validation">Field ini harus diisi</small>
             </div>
 
             <hr>
 
-            <h3>Pilihan Divisi</h3>
-            <p>Urutkan semua divisi di bawah ini. Nomor 1 adalah divisi yang paling kamu minati. <em>Drag and drop</em> ke posisi yang kamu inginkan!</p>
+            <h3>Saatnya memilih</h3>
+            <p>Mudah kok. Silakan urutkan divisi-divisi di bawah ini. Nomor 1 adalah divisi yang paling kamu minati, dan seterusnya. <em>Drag and drop</em> ke divisi yang kamu inginkan! Eits, jangan sembarangan ya karena urutan nomor 1 hingga 19 akan kami benar-benar perhatikan loh. :)</p>
 
             <div class="container-fluid">
                 <div class="sortable sortable-well division-pool">
@@ -85,24 +89,24 @@
 
             <hr>
             <div class="text-center">
-              <button class="btn btn-danger" type="button" id = "shuffle"> Atur ulang, Kak! Aku bingung soalnya </button>
+              <button class="btn btn-danger" type="button" id = "shuffle"> Atur ulang, please! <br> Aku bingung soalnya </button>
             </div>
 
-            <h3>Alasan</h3>
-            <p>Apa yang membuatmu memilih <span class="division-1"></span>, <span class="division-2"></span>, dan <span class="division-3"></span>?</p>
+            <h3>Oke, jadi gini.....</h3>
+            <p>Kamu tadi memilih <span class="division-1"></span>, <span class="division-2"></span>, dan <span class="division-3"></span>.</p>
 
             <div class="form-group">
-                <label class="" for="reason1">Alasan masuk <strong class="division-1"></strong>?</label>
+                <label class="" for="reason1">Kenapa kamu ingin masuk <strong class="division-1"></strong>?</label>
                 <textarea class="form-control" name="reason1" id="reason1" cols="30" rows="5" required></textarea>
                 <small class="error-validation">Field ini harus diisi</small>
             </div>
             <div class="form-group">
-                <label class="" for="reason2">Alasan masuk <strong class="division-2"></strong>?</label>
+                <label class="" for="reason2">Kalau alasan ingin masuk <strong class="division-2"></strong> apa?</label>
                 <textarea class="form-control" name="reason2" id="reason2" cols="30" rows="5" required></textarea>
                 <small class="error-validation">Field ini harus diisi</small>
             </div>
             <div class="form-group">
-                <label class="" for="reason3">Alasan masuk <strong class="division-3"></strong>?</label>
+                <label class="" for="reason3">Satu lagi, kenapa kamu juga ingin masuk <strong class="division-3"></strong>?</label>
                 <textarea class="form-control" name="reason3" id="reason3" cols="30" rows="5" required></textarea>
                 <small class="error-validation">Field ini harus diisi</small>
             </div>
@@ -110,9 +114,9 @@
             <hr>
             <div class="checkbox form-group">
                 <label>
-                    <input name="confirmation" id="confirmation" type="checkbox" required class="checkbox"> Konfirmasi kebenaran data Anda
+                    <input name="confirmation" id="confirmation" type="checkbox" required class="checkbox"> Saya secara sadar memilih pilihan divisi tersebut di atas. Saya juga menerima bila saya tidak diterima di salah satu dari tiga divisi pertama pilihan saya.
                 </label>
-                <span class="error-validation">Anda harus setuju dengan ketentuan di atas</span>
+                <span class="error-validation">Kamu harus setuju dengan ketentuan di atas, oke oke?</span>
             </div>
             <div class="form-group">
                 <button class="btn btn-default submit-button">Kirim!</button>
@@ -123,7 +127,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-body">
-                            <h4 class="modal-title">Apakah kamu yakin data yang dimasukkan sudah benar?</h4>
+                            <h4 class="modal-title">Eits! Yakin data kamu sudah benar? Review dulu ya sebelum dikirim.</h4>
                             <h5><strong>NIM / Nama / Nomor HP / ID LINE:</strong></h5>
                             <div class="well" id="identitas-review"></div>
 
