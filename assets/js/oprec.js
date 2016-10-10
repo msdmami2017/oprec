@@ -2,7 +2,7 @@ $(function() {
     var division = [
         'Perizinan',
         'Edufair',
-        'Seminar',
+        'Workshop and Tour',
         'Tourlab',
         'Paguyuban Membangun',
         'SCUI',
