@@ -1,24 +1,24 @@
 $(function() {
     var division = [
-        'KESEKJENAN - Perizinan',
-        'ITB DAY - Edufair',
-        'ITB DAY - Seminar',
-        'ITB DAY - Tourlab',
-        'DISEMINASI - Paguyuban Membangun',
-        'DISEMINASI - SCUI',
-        'EKSTERNAL - Ekstrakampus',
-        'EKSTERNAL - Media Partner',
-        'EKSTERNAL - Publikasi',
-        'FUNDRAISING - Entrepreneurship',
-        'FUNDRAISING - Sponsorship',
-        'KREATIF - Artistik',
-        'KREATIF - Dokumentasi',
-        'KREATIF - Grafis',
-        'MATERI METODE - Materi dan Kajian',
-        'MATERI METODE - Penelitian dan Pembangunan',
-        'OPERASIONAL - Akomodasi dan Transporatasi',
-        'OPERASIONAL - Logistik',
-        'OPERASIONAL - Produksi'
+        'Perizinan',
+        'Edufair',
+        'Seminar',
+        'Tourlab',
+        'Paguyuban Membangun',
+        'SCUI',
+        'Ekstrakampus',
+        'Media Partner',
+        'Publikasi',
+        'Entrepreneurship',
+        'Sponsorship',
+        'Artistik',
+        'Dokumentasi',
+        'Grafis',
+        'Materi dan Kajian',
+        'Penelitian dan Pembangunan',
+        'Akomodasi dan Transporatasi',
+        'Logistik',
+        'Produksi'
     ];
     var divisionItemTemplate =
         '<div class="col-md-4 col-sm-4 col-xs-6 division-item">'
