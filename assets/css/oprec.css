@@ -6,6 +6,12 @@ hr{
     border:1px solid rgb(92, 80, 31);
 }
 
+.bidang{
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    box-shadow: 5px 5px 5px #888;
+}
+
 .division-item {
     padding: 10px;
     text-align: center;

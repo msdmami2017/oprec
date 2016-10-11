@@ -15,7 +15,7 @@ $(function() {
         'Dokumentasi',
         'Grafis',
         'Materi dan Kajian',
-        'Penelitian dan Pembangunan',
+        'Penelitian dan Pengembangan',
         'Akomodasi dan Transporatasi',
         'Logistik',
         'Produksi'
@@ -143,6 +143,7 @@ $(function() {
         $('#email-review').html($('#email').val());
         $('#asal-review').html($('#asal').val());
         $('#alamat-review').html($('#alamat').val());
+        $('#kendaraan-review').html($('#kendaraan').val());
                 // division order
         var order = $('#division-review');
         order.html('<ol></ol>');
@@ -181,6 +182,7 @@ $(function() {
         email:"entry.348258832",
         asal:"entry.2141720591",
         alamat:"entry.1810565055",
+        kendaraan: "entry.1617731198",
 
         division: [
             "entry.1961972845",
@@ -230,7 +232,7 @@ $(function() {
         form.append('<input type="text" name="' + formEntries.email + '" value="' + $('#email').val() + '">');
         form.append('<input type="text" name="' + formEntries.asal + '" value="' + $('#asal').val() + '">');
         form.append('<input type="text" name="' + formEntries.alamat + '" value="' + $('#alamat').val() + '">');
-
+        form.append('<input type="text" name="' + formEntries.kendaraan + '" value="' + $('#kendaraan').val() + '">');
         // division orders
         $('.division-item').each(function(i, e) {
             form.append('<input type="text" name="' + formEntries.division[i] + '" value="' + $(e).data('division') + '">');
