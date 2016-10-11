@@ -2,6 +2,13 @@ body{
     background-color: rgb(238, 234, 200);
 }
 
+.judul{
+    font-family: 'Raleway',sans-serif;
+    text-transform: uppercase;
+    font-size: 18pt;
+    margin: 5px 0 10px 0;
+}
+
 hr{
     border:1px solid rgb(92, 80, 31);
 }

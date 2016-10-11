@@ -9,7 +9,7 @@ $(function() {
         'Ekstrakampus',
         'Media Partner',
         'Publikasi',
-        'Entrepreneurship',
+        'Enterpreneurship',
         'Sponsorship',
         'Artistik',
         'Dokumentasi',
