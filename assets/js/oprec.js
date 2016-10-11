@@ -13,7 +13,6 @@ $(function() {
         'Sponsorship',
         'Artistik',
         'Dokumentasi',
-        'Grafis',
         'Materi dan Kajian',
         'Penelitian dan Pengembangan',
         'Akomodasi dan Transporatasi',
@@ -203,7 +202,6 @@ $(function() {
             "entry.825806807",
             "entry.858898130", //17
             "entry.653942337",
-            "entry.99107634"
         ],
         reason: [
             "entry.476804404",
