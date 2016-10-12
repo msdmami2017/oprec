@@ -138,7 +138,7 @@ $(function() {
 
     function fillModal() {
         // nim-nama-telepon
-        $('#identitas-review').html($('#nim').val() + " / " + $('#nama').val() + " / " + $('#nohp').val() + " / " +$('#idline').val());
+        $('#identitas-review').html($('#nim').val() + " / " + $('#nama').val() + " / " + $('#nohp').val() + " / " +$('#idline').val() + " / " +$('#jeniskelamin').val());
         $('#email-review').html($('#email').val());
         $('#asal-review').html($('#asal').val());
         $('#alamat-review').html($('#alamat').val());
@@ -176,6 +176,7 @@ $(function() {
         nim:    "entry.1397779433",
         nama:   "entry.273207346",
         fakultas: "entry.2025349454",
+        jeniskelamin: "entry.2089458004",
         nohp:"entry.1034463475",
         idline: "entry.1692946345",
         email:"entry.348258832",
@@ -228,6 +229,7 @@ $(function() {
         form.append('<input type="text" name="' + formEntries.nohp + '" value="' + $('#nohp').val() + '">');
         form.append('<input type="text" name="' + formEntries.idline + '" value="' + $('#idline').val() + '">');
         form.append('<input type="text" name="' + formEntries.email + '" value="' + $('#email').val() + '">');
+        form.append('<input type="text" name="' + formEntries.jeniskelamin + '" value="' + $('#jeniskelamin').val() + '">');
         form.append('<input type="text" name="' + formEntries.asal + '" value="' + $('#asal').val() + '">');
         form.append('<input type="text" name="' + formEntries.alamat + '" value="' + $('#alamat').val() + '">');
         form.append('<input type="text" name="' + formEntries.kendaraan + '" value="' + $('#kendaraan').val() + '">');
