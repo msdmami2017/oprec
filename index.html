@@ -67,8 +67,8 @@
                 </div>
                 <div class="form-group col-xs-9 col-md-5">
                     <label class="" for="email">Jenis Kelamin</label><br>
-                    <input type="radio" name="jeniskelamin" id="jeniskelamin" value="L" required checked>Laki-laki<br>
-                    <input type="radio" name="jeniskelamin" id="jeniskelamin" value="P" required>Perempuan
+                    <input type="radio" name="jeniskelamin" id="jeniskelamin" value="Laki-laki" required checked>Laki-laki<br>
+                    <input type="radio" name="jeniskelamin" id="jeniskelamin" value="Perempuan" required>Perempuan
                     <small class="error-validation">Field ini harus diisi</small>
                 </div>
             </div>
@@ -80,11 +80,19 @@
                     <small class="error-validation">Field ini harus diisi</small>
                 </div>
             </div>
-            <div class="form-group">
-                    <label class="" for="asal">Asal Daerah</label>
-                    <small class=""><em>Isi dengan <u>kota</u> asal SMA kamu</em></small>
-                    <input class="form-control" type="text" name="asal" id="asal" required>
-                    <small class="error-validation">Field juga harus diisi</small>
+            <div class="row">
+                <div class="form-group col-xs-9 col-md-5">
+                        <label class="" for="asal">Asal SMA</label>
+                        <small class=""><em>Isi dengan <u>nama sekolah</u> asal SMA kamu</em></small>
+                        <input class="form-control" type="text" name="asalsma" id="asalsma" required>
+                        <small class="error-validation">Field juga harus diisi</small>
+                </div>
+                <div class="form-group col-xs-9 col-md-5">
+                        <label class="" for="asal">Asal Daerah</label>
+                        <small class=""><em>Isi dengan <u>kota dan provinsi</u> asal SMA kamu</em></small>
+                        <input class="form-control" type="text" name="asal" id="asal" required>
+                        <small class="error-validation">Field juga harus diisi</small>
+                </div>
             </div>
             <div class="form-group">
                     <label class="" for="alamat">Alamat di Bandung</label>
@@ -224,13 +232,13 @@
                     <div class="modal-content">
                         <div class="modal-body">
                             <h4 class="modal-title">Eits! Yakin data kamu sudah benar? Review dulu ya sebelum dikirim.</h4>
-                            <h5><strong>NIM / Nama / Nomor HP / ID LINE / Jenis Kelamin :</strong></h5>
+                            <h5><strong>NIM / Nama / Jenis Kelamin / Nomor HP / ID LINE :</strong></h5>
                             <div class="well" id="identitas-review"></div>
 
                             <h5><strong>Email</strong></h5>
                             <div class="well" id="email-review"></div>
 
-                            <h5><strong>Asal Daerah:</strong></h5>
+                            <h5><strong>Asal SMA / Asal Daerah:</strong></h5>
                             <div class="well" id="asal-review"></div>
 
                             <h5><strong>Alamat Bandung:</strong></h5>

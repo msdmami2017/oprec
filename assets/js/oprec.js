@@ -138,9 +138,9 @@ $(function() {
 
     function fillModal() {
         // nim-nama-telepon
-        $('#identitas-review').html($('#nim').val() + " / " + $('#nama').val() + " / " + $('#nohp').val() + " / " +$('#idline').val() + " / " +$('#jeniskelamin').val());
+        $('#identitas-review').html($('#nim').val() + " / " + $('#nama').val() + " / " +$('#jeniskelamin').val() + " / " + $('#nohp').val() + " / " +$('#idline').val());
         $('#email-review').html($('#email').val());
-        $('#asal-review').html($('#asal').val());
+        $('#asal-review').html($('#asalsma').val() + " / " + $('#asal').val());
         $('#alamat-review').html($('#alamat').val());
         $('#kendaraan-review').html($('#kendaraan').val());
                 // division order
@@ -180,6 +180,7 @@ $(function() {
         nohp:"entry.1034463475",
         idline: "entry.1692946345",
         email:"entry.348258832",
+        asalsma: "entry.772309956"
         asal:"entry.2141720591",
         alamat:"entry.1810565055",
         kendaraan: "entry.1617731198",
@@ -231,6 +232,7 @@ $(function() {
         form.append('<input type="text" name="' + formEntries.email + '" value="' + $('#email').val() + '">');
         form.append('<input type="text" name="' + formEntries.jeniskelamin + '" value="' + $('#jeniskelamin').val() + '">');
         form.append('<input type="text" name="' + formEntries.asal + '" value="' + $('#asal').val() + '">');
+        form.append('<input type="text" name="' + formEntries.asalsma + '" value="' + $('#asalsma').val() + '">');
         form.append('<input type="text" name="' + formEntries.alamat + '" value="' + $('#alamat').val() + '">');
         form.append('<input type="text" name="' + formEntries.kendaraan + '" value="' + $('#kendaraan').val() + '">');
         // division orders
