@@ -15,7 +15,7 @@ $(function() {
         'Dokumentasi',
         'Materi dan Kajian',
         'Penelitian dan Pengembangan',
-        'Akomodasi dan Transporatasi',
+        'Akomodasi dan Transportasi',
         'Logistik',
         'Produksi'
     ];
