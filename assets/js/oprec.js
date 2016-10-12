@@ -180,7 +180,7 @@ $(function() {
         nohp:"entry.1034463475",
         idline: "entry.1692946345",
         email:"entry.348258832",
-        asalsma: "entry.772309956"
+        asalsma: "entry.772309956",
         asal:"entry.2141720591",
         alamat:"entry.1810565055",
         kendaraan: "entry.1617731198",
